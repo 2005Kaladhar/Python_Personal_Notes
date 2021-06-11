@@ -76,8 +76,8 @@ class Employee:
 kaladhar = Employee()     # Instance 1
 gopal = Employee()        # Instance 2
 
-kaladhar.name = "Harry"   # Instance variable for 'kaladhar'
-gopal.name = "Rohan"      # Instance variable for 'gopal'
+kaladhar.name = "Kaladhar"   # Instance variable for 'kaladhar'
+gopal.name = "Gopal"      # Instance variable for 'gopal'
 
 kaladhar.salary = 456
 gopal.salary = 786
