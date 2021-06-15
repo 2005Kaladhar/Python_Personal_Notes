@@ -1,4 +1,6 @@
 '''
+External Test line in python
+
         Diamond Shape Problem
 
 Generally a programmer is advised to avoid multiple
