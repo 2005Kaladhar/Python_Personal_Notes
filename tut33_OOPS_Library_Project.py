@@ -1,11 +1,15 @@
-'''Library program
+# I accept the challenge 
 
+# Link - 
+# https://github.com/2005Kaladhar/Python_Personal_Notes/blob/main/tut33_OOPS_Library_Project.py
+
+'''
+Target list - 
+Library program
 1. Display books - done
 2. Lend books  - done
 3. Donate books - done
-4. Return books
-
-
+4. Return books - done
 '''
 import time
 
@@ -197,11 +201,13 @@ class Library :
             elif dbook == 'del prev' and len(new_books) != 0:
                 print("Counter value - ", counter)
                 del new_books[counter-2]
-                counter -= 1
+                if not (counter - 1 < 1):
+                    counter -=1
             
             elif dbook == 'del prev' and len(new_books) == 0:
                 print("Please Enter a Book Name First ...")
-                counter-=1
+                if not (counter - 1 < 1):
+                    counter -=1
                 
             else:
                 new_books.append(dbook_name)
@@ -216,7 +222,6 @@ class Library :
         print("\nSucessfully Donated Books!! Thank You for donating :)")
         self.line_break()
         time.sleep(1) 
-        self.__init__(stock_books, self.lib_name)
         
         
         
@@ -263,6 +268,3 @@ kalaLib = Library(books,'KaladharLib')
 
 
 kalaLib.user_entry()
-        
-    
-
