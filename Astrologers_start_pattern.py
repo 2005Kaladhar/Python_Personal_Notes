@@ -15,3 +15,6 @@ for i in range(start,stop,step):
 #If user gives no. of lines as 0 then this else suite will run
 else:
     print("Ha ha ha :) Kya Majak Kar rahe ho yrr!!")
+
+"""   https://youtube.com/playlist?list=PLbu_fGT0MPssPML-BCZ6ByU8dVlVe3nIl
+ """
